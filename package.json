@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/greymadr/coffee-graphql.git"
@@ -17,8 +14,15 @@
     "url": "https://github.com/greymadr/coffee-graphql/issues"
   },
   "homepage": "https://github.com/greymadr/coffee-graphql#readme",
+  "scripts": {
+    "deploy": "serverless deploy"
+  },
   "dependencies": {
     "apollo-server": "^2.5.0",
+    "apollo-server-lambda": "^2.5.0",
     "graphql": "^14.3.1"
+  },
+  "devDependencies": {
+    "serverless": "^1.43.0"
   }
 }
