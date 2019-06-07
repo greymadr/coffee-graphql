@@ -1,0 +1,6 @@
+image: node:8.10.0
+
+deploy:
+  script:
+    - npm install
+    - npm run deploy
